@@ -1,83 +1,95 @@
-@import "../../vars.css";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .navbar {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 15px;
-  padding-bottom: 15px; 
-  z-index: 2;
-  margin: 0 10%;
+    position: sticky; /* Keeps navbar sticky */
+    top: 0;           /* Sticks to the top of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px; 
+    padding-right: 25px; 
+
+    z-index: 2;       /* Ensures the navbar stays on top of other content */
+    margin: 0 10%;
+    background-color:  #04152d;
+    color: var(--color-text);
+    width: 100%; 
+    left:0;
+    margin:0; 
 }
 
 .title {
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--color-text);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white; /* Ensure text is visible on dark background */
 }
 
-
 .menuBtn {
-  display: none;
+    display: none;
+    color: white; /* Same as above */
 }
 
 .menu {
-  display: flex;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 0; 
+    background-color: black; /* Eliminates background gaps */
 }
 
 .menuItems {
-  display: flex;
-  gap: 47px;
-  list-style: none;
+    display: flex;
+    gap: 47px;
+    list-style: none;
+    background-color: black; /* Eliminates white gaps */
 }
 
 .menuItems a {
-  font-size: 15px;
-  color: var(--color-text);
-  text-decoration: none;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 830px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-  .menu {
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 11px;
-    z-index: 3;
-  }
+    .menu {
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+        background-color: black; /* For mobile view */
+    }
 
-  .menuBtn {
-    display: block;
-    cursor: pointer;
-  }
+    .menuBtn {
+        display: block;
+        cursor: pointer;
+    }
 
-  .menuItems {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  }
+    .menuItems {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(25, 55, 109); /* Gradient still visible */
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
 
-  .menuOpen {
-    display: flex;
-    z-index: 1;
-  }
+    .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
 }
