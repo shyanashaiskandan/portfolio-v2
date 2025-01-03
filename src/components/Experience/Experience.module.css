@@ -1,0 +1,31 @@
+.govlogo {
+    width: 210px; 
+}
+
+.manulife {
+    width: 200px; 
+}
+
+.bmo {
+    width: 160px; 
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align title and timeline */
+    margin: 0;
+    padding-top: 50px;
+    z-index: 1;
+    background-color: rgb(115, 99, 255);
+    padding-bottom: 4%;
+}
+
+.title {
+    margin-top: 1%;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px; /* Adds space between the title and timeline */
+}
