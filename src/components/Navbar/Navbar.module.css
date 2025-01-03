@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,22 +6,19 @@
 
 .navbar {
     position: sticky; /* Keeps navbar sticky */
-    top: 0;           /* Sticks to the top of the viewport */
+    top: 0; /* Sticks to the top of the viewport */
     display: flex;
-    align-items: center;
+    align-items: center; /* Vertically centers content */
     justify-content: space-between;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 25px; 
-    padding-right: 25px; 
+    padding-left: 25px;
+    padding-right: 25px;
 
-    z-index: 2;       /* Ensures the navbar stays on top of other content */
-    margin: 0 10%;
-    background-color:  #04152d;
+    z-index: 2; /* Ensures the navbar stays on top of other content */
+    background-color: #04152d;
     color: var(--color-text);
-    width: 100%; 
-    left:0;
-    margin:0; 
+    width: 100%;
 }
 
 .title {
@@ -32,23 +29,29 @@
 }
 
 .menuBtn {
-    display: none;
-    color: white; /* Same as above */
+    display: block; /* Ensures visibility */
+    cursor: pointer;
+    width: 25px; /* Adjust size */
+    height: 25px; /* Maintain aspect ratio */
+    margin: auto 0; /* Vertically centers the button */
+    position: relative; /* Keeps it in layout flow */
+    z-index: 4; /* Keeps it on top */
+    color: white; /* Matches the theme */
+    background: none; /* No background */
+    border: none; /* No border */
 }
 
 .menu {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    margin: 0; 
-    background-color: black; /* Eliminates background gaps */
+    margin: 0;
 }
 
 .menuItems {
     display: flex;
     gap: 47px;
     list-style: none;
-    background-color: black; /* Eliminates white gaps */
 }
 
 .menuItems a {
@@ -57,39 +60,71 @@
     text-decoration: none;
 }
 
+.menuBtn {
+    display: none; /* Hide button by default */
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    background: none;
+    border: none;
+}
+
 @media screen and (max-width: 830px) {
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .menu {
-        margin-right: 10%;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 11px;
-        z-index: 3;
-        background-color: black; /* For mobile view */
-    }
-
-    .menuBtn {
+        position: sticky;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 25px;
+        z-index: 2;
+        background-color: #04152d;
+        color: var(--color-text);
+        width: 100%;
+      }
+      
+      .title {
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+      }
+      
+      .menu {
+        position: relative; /* Required to position the menuItems absolutely relative to this container */
+      }
+      
+      .menuBtn {
         display: block;
         cursor: pointer;
-    }
-
-    .menuItems {
-        display: none;
+        width: 25px;
+        height: 25px;
+        background: none;
+        border: none;
+      }
+      
+      .menuItems {
+        display: none; /* Default hidden */
+        position: absolute;
+        top: 100%; /* Positions the menu right below the button */
+        right: 0; /* Aligns with the button */
         flex-direction: column;
-        align-items: center;
-        gap: 13px;
-        border-radius: 10px;
-        background: rgb(25, 55, 109); /* Gradient still visible */
-        padding: 24px 33px;
+        gap: 8px;
+        list-style: none;
+        background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
+        border-radius: 5px;
+        padding: 15px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-    }
-
-    .menuOpen {
-        display: flex;
-        z-index: 1;
-    }
-}
+        z-index: 3;
+      }
+      
+      .menuItems a {
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+      }
+      
+      .menuOpen {
+        display: flex; /* When active, make menu visible */
+      }
+    }      
