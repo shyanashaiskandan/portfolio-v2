@@ -6,13 +6,11 @@ export default function About() {
     <section id="about" className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, I'm Shyana!</h1>
-            <p className={styles.description}>I'm a fourth year Computer Engineering Student at the University of Waterloo.
+            <p className={styles.description}>I'm a fourth year Computer Engineering Student at the University of Waterloo. </p>
+            <p className={styles.description}>I'm passionate about technology and constantly curious about the world of software.</p>
+            <p className={styles.description}>I'm currently exploring full-stack development , learning how to connect frontend and backend systems to build more complete solutions.</p>
+            <p className={styles.description}>Let's build something amazing together!</p>
 
-I'm passionate about technology and constantly curious about the world of software.
-
-I'm currently exploring full-stack development , learning how to connect frontend and backend systems to build more complete solutions.
-
-Let's build something amazing together!</p>
             <a href="#projects" className={styles.btn}>Check out my work!</a>
         </div>
         <img src="/assets/about/heroImage.png" alt="image of me" className={styles.profileImage}/>
