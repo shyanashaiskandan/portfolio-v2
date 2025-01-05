@@ -1,14 +1,5 @@
-.govlogo {
-    width: 210px; 
-}
+@import "../../vars.css";
 
-.manulife {
-    width: 200px; 
-}
-
-.bmo {
-    width: 160px; 
-}
 
 .container {
     position: relative;
@@ -28,4 +19,15 @@
     font-family: sans-serif;
     font-weight: bold;
     margin-bottom: 20px; /* Adds space between the title and timeline */
+}
+
+.projects {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  width: 100%;
 }
