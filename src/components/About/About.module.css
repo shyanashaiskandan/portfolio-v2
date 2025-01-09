@@ -1,7 +1,14 @@
 
 
 @import "../../vars.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Karla:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800;900&display=swap');
 
+
+
+
+
+  
 /* App.css */
 html {
     scroll-behavior: smooth;
@@ -19,7 +26,7 @@ html {
     height: 100vh; /* Ensures full viewport height */
     overflow: hidden; /* Hides any overflowing content */
     z-index: 1;
-    background-color: rgb(255, 159, 159); /* Keeps the background color */
+    background-color: #efdded; /* Keeps the background color */
     box-sizing: border-box; /* Ensures padding is included in height */
 }
 
@@ -39,40 +46,39 @@ html {
 
 .title {
     font-size: 72px;
-    font-weight: 900;
+    font-weight:600;
     margin-bottom: 33px;
     margin-left: 10%; 
-    font-family: var(--font-roboto); 
-    background: linear-gradient(
-        90deg,
-        rgba(255, 3, 3, 0.802) 70%,
-        rgba(255, 255, 255, 0) 120%
-      );
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
+    font-family: 'Poppins', sans-serif;
+    color: #5C2A54; 
 }
 
 
 .description {
     font-size: 20px;
-    font-family: var(--font-roboto);
+    font-family: 'Work Sans', sans-serif; /* Use Work Sans */
     margin-bottom: 25px;
     margin-left: 10%; 
     line-height: 1.2; /* Adjusts line spacing */
+    color: #7A607E; 
     
 }
 
 .btn {
     text-decoration: none;
-    background-color: white;
-    color: black; 
-    border-radius: 100px;
+    background-color: #f6f6f6;
+    color: #6E8CA8; /* Text color set to black */
+    border-color: #5C2A54; /* Border color */
+    border-width: 3px; /* Thicker border */
+    border-style: solid; /* Ensures the border is visible */
+    border-radius: 100px; /* Rounded corners */
     font-size: 15px;
     font-weight: 600;
-    padding: 17px 26px; 
-    box-shadow: 0 0 4px 0 rgba(0,0,0,0.25); 
-    margin-left: 10%; 
+    padding: 17px 26px;
+    margin-left: 10%;
 }
+
+
 
 .profileImage {
     width: 65%;
@@ -109,7 +115,7 @@ html {
     top: -128px;
     left: -10vw;
     border-radius: 764px;
-    background: rgba(253, 218, 224, 0.567);
+    background: #ffeafc;
     filter: blur(100px);
     z-index: 0;
   }
@@ -124,7 +130,7 @@ html {
     top: 246px;
     right: -25vw;
     border-radius: 764px;
-    background: rgba(253, 218, 224, 0.567);
+    background: #ffeafc;
     filter: blur(100px);
     z-index: 0;
   }
@@ -140,6 +146,24 @@ html {
       align-items: center;
     }
   }
+
+  /* Highlight for "University of Waterloo" and "full-stack development" */
+.description .highlightBlue {
+    color: #6E8CA8; /* Blue color */
+    font-weight: 900; /* Optional for emphasis */
+    font-size: 22px; 
+
+}
+  
+.description .highlightGreen {
+    color: #789A95;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+      
+
 
 
     
