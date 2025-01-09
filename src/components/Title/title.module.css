@@ -1,6 +1,6 @@
 .header {
     z-index: 1;
-    background: linear-gradient(-45deg, rgb(255, 255, 255), rgb(254, 168, 182), rgba(178, 100, 250, 0.904), rgb(54, 212, 240));
+    background: linear-gradient(-45deg, rgb(255, 255, 255), rgb(254, 168, 182), rgba(197, 136, 255, 0.904), rgb(117, 223, 241));
     background-size: 400% 400%;
     width: 100%;
     height: 93.25vh;
@@ -15,7 +15,7 @@
 
 .header h2 {
     text-align: center;
-    color: #fff;
+    color:  #5C2A54;
     font-size: 75px;
 }
 
@@ -25,6 +25,7 @@
     font-size: 18px;
     width: 35%;
     line-height: 1.7;
+    font-style: italic;
 }
 
 .wrapper span {

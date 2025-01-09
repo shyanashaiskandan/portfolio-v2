@@ -16,7 +16,7 @@
     padding-right: 25px;
 
     z-index: 2; /* Ensures the navbar stays on top of other content */
-    background-color: #04152d;
+    background-color: #5C2A54;
     color: var(--color-text);
     width: 100%;
 }

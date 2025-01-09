@@ -7,7 +7,7 @@ const Contact = () => {
     <div id="contact"className={styles.contactCard}>
       <div className={styles.imageContainer}>
         <img
-          src="https://via.placeholder.com/150" // Replace with your image source
+          src="/assets/Contact/heart.png" // Replace with your image source
           alt="Profile"
           className={styles.profileImage}
         />
