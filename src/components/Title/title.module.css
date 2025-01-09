@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Karla:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800;900&display=swap');
+
+
 .header {
     z-index: 1;
     background: linear-gradient(-45deg, rgb(255, 255, 255), rgb(254, 168, 182), rgba(197, 136, 255, 0.904), rgb(117, 223, 241));
@@ -17,15 +21,17 @@
     text-align: center;
     color:  #5C2A54;
     font-size: 75px;
+    font-family: 'Poppins', sans-serif;; 
 }
 
 .header p {
     text-align: center;
     color: #fff;
     font-size: 18px;
-    width: 35%;
+    width: 45%;
     line-height: 1.7;
     font-style: italic;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .wrapper span {
