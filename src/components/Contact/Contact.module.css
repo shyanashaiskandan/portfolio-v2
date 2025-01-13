@@ -1,78 +1,77 @@
-/* Contact.module.css */
-
 .contactCard {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #5C2A54 0%, #937497 100%);
-    box-shadow: 0 16px 14px 0 #04152d;
-    padding: 18px 24px;
-    width: 100vw; /* Ensures full viewport width */
-    height: 100vh; /* Ensures full viewport height */
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
-  
-  .imageContainer {
-    margin-bottom: 24px;
-  }
-  
-  .profileImage {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .infoContainer {
-    text-align: center;
-  }
-  
-  .name {
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 0;
-    color: #ffffff;
-  }
-  
-  .title {
-    font-size: 1.2rem;
-    color: #d1d5db;
-    margin-bottom: 1.5rem;
-  }
-  
-  .contactInfo {
-    font-size: 1rem;
-  }
-  
-  .label {
-    font-weight: bold;
-    color: #d1d5db;
-  }
-  
-  .contactLinks {
-    display: flex;
-    gap: 16px;
-    margin-top: 16px;
-  }
-  
-  .contactButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #ffffff;
-    color: #132a53;
-    border: none;
-    border-radius: 50px;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s, transform 0.3s;
-  }
-  
-  .contactButton:hover {
-    background: #d1d5db;
-    transform: scale(1.05);
-  }
-  
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #5c2a54 0%, #937497 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.imageContainer {
+  margin-bottom: 0px;
+}
+
+.profileImage {
+  width: 100px;
+}
+
+.infoContainer {
+  text-align: center;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  color: black;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.contactInfo {
+  font-size: 1rem;
+}
+
+.label {
+  font-weight: bold;
+  color: black;
+}
+
+.contactLinks {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.contactButton:hover {
+  transform: scale(1.1);
+}
+
+.contactIcon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
