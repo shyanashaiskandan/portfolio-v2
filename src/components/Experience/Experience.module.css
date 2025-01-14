@@ -1,57 +1,113 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Karla:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800;900&display=swap');
 
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding-top: 50px;
+  z-index: 1;
+  background-color: #f4c8e0;
+  padding-bottom: 4%;
+}
+
+
+.title {
+  margin-top: 1%;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #5c2a54df;
+  text-align: center;
+}
+
+
 .govlogo {
-    width: 210px; 
+  width: 210px;
 }
 
 .empireLife {
-    width: 180px; 
-    margin-bottom: 20px; 
-    margin-top: 10px; 
+  width: 180px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .manulife {
-    width: 200px; 
-    margin-bottom: 20px; 
-    margin-top: 10px; 
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .bmo {
-    width: 160px; 
-    margin-bottom: 20px; 
-    margin-top: 10px; 
+  width: 160px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
-.container {
-    position: relative;
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    margin: 0;
-    padding-top: 50px;
-    z-index: 1;
-    background-color: #F4C8E0;
-    padding-bottom: 4%;
+
+.vertical-timeline-element-content {
+  background-color: #d97b9f !important;
+  color: white !important;
+  border: 2px solid black !important;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out !important;
+  opacity: 0;
+  transform: translateY(20px);
 }
 
-.title {
-    margin-top: 1%;
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    margin-bottom: 20px; 
-    color:#5c2a54df;
-    font: bold; 
+.vertical-timeline-element-content.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.vertical-timeline-element-content::after {
+  border-right: 7px solid black !important;
+}
+
+.date {
+  color: #f9f1f1;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 
 @media screen and (max-width: 830px) {
-    .date {
-      display: none; 
-    }
+  .date {
+    display: none;
   }
-  
-  
-  
+
+  .title {
+    font-size: 36px;
+  }
+
+  .container {
+    padding: 20px;
+    height: auto;
+  }
+
+  .govlogo,
+  .empireLife,
+  .manulife,
+  .bmo {
+    width: 100px; 
+  }
+
+  .vertical-timeline-element-content {
+    padding: 15px;
+  }
+}
