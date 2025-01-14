@@ -118,3 +118,22 @@
     0%, 100% { background-position: 0 50%; }
     50% { background-position: 100% 50%; }
 }
+
+@media screen and (max-width: 830px) {
+    .container {
+      flex-direction: column-reverse; 
+      align-items: center; 
+      justify-content: center; 
+      padding: 20px; 
+      height: auto; 
+      width: auto; 
+    }
+
+    .header h2 {
+        font-size: 67px;
+    }
+
+    .header p {
+        font-size: 15px; 
+    }
+}
