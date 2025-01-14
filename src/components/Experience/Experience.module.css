@@ -45,3 +45,13 @@
     color:#5c2a54df;
     font: bold; 
 }
+
+
+@media screen and (max-width: 830px) {
+    .date {
+      display: none; /* Hides the date element */
+    }
+  }
+  
+  
+  

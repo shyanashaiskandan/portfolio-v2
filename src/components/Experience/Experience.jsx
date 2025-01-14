@@ -1,11 +1,11 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import bmo from "./bmologo.png";
-import manulife from "./manulife logo.png";
-import gov from "./governmentlogo.png";
+import bmo from "/assets/experience/bmologo.png";
+import manulife from "/assets/experience/manulife logo.png";
+import gov from "/assets/experience/governmentlogo.png";
 import styles from "./Experience.module.css";
-import empireLife from "/assets/experience/empirelife.png"
+import empireLife from "/assets/experience/empirelife.png";
 
 const Experience = () => {
   return (
@@ -19,13 +19,13 @@ const Experience = () => {
           className="vertical-timeline-element"
           contentStyle={{
             background: '#d97b9f',
-            color: 'black',
+            color: 'white',
             border: '2px solid black',
           }}
           contentArrowStyle={{
             borderRight: '7px solid black', // Arrow with black border
           }}
-          date={<span style={{ color: '#9e849e' }}>January 2025 - April 2025</span>}
+          date={<span className={styles.date}>January 2025 - April 2025</span>}
           iconStyle={{ background: '#b16687', color: 'white' }}
         >
           <center><img src={empireLife} alt="gov logo" className={styles.empireLife} /></center>
@@ -33,24 +33,19 @@ const Experience = () => {
           <center><h4 style={{ color: '#f9f1f1' }}>Empire Life</h4></center>
         </VerticalTimelineElement>
         
-        
-        
-        
-        
-        
         {/* Ministry of Finance */}
         <VerticalTimelineElement
           visible={true}
           className="vertical-timeline-element"
           contentStyle={{
             background: '#d97b9f',
-            color: 'black',
+            color: 'white',
             border: '2px solid black',
           }}
           contentArrowStyle={{
             borderRight: '7px solid black', // Arrow with black border
           }}
-          date={<span style={{ color: '#9e849e' }}>January 2024 - April 2024</span>}
+          date={<span className={styles.date}>January 2024 - April 2024</span>}
           iconStyle={{ background: '#b16687', color: 'white' }}
         >
           <center><img src={gov} alt="gov logo" className={styles.govlogo} /></center>
@@ -70,7 +65,7 @@ const Experience = () => {
           contentArrowStyle={{
             borderRight: '7px solid black', // Arrow with black border
           }}
-          date={<span style={{ color: '#9e849e' }}>May 2023 - August 2023</span>}
+          date={<span className={styles.date}>May 2023 - August 2023</span>}
           iconStyle={{ background: '#b16687', color: 'white' }}
         >
           <center><img src={manulife} alt="manulife logo" className={styles.manulife} /></center>
@@ -90,7 +85,7 @@ const Experience = () => {
           contentArrowStyle={{
             borderRight: '7px solid black', // Arrow with black border
           }}
-          date={<span style={{ color: '#9e849e' }}>September 2022 - December 2022</span>}
+          date={<span className={styles.date}>September 2022 - December 2022</span>}
           iconStyle={{ background: '#b16687', color: 'white' }}
         >
           <center><img src={bmo} alt="BMO logo" className={styles.bmo} /></center>
@@ -110,7 +105,7 @@ const Experience = () => {
           contentArrowStyle={{
             borderRight: '7px solid black', // Arrow with black border
           }}
-          date={<span style={{ color: '#9e849e' }}>January 2022 - April 2022</span>}
+          date={<span className={styles.date}>January 2022 - April 2022</span>}
           iconStyle={{ background: '#b16687', color: 'white' }}
         >
           <center><img src={bmo} alt="BMO logo" className={styles.bmo} /></center>
