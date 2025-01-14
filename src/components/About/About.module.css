@@ -1,15 +1,8 @@
-
-
 @import "../../vars.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Karla:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800;900&display=swap');
 
 
-
-
-
-  
-/* App.css */
 html {
     scroll-behavior: smooth;
   }
@@ -20,14 +13,14 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0; /* Keeps the margins removed */
-    padding-top: 50px; /* Adds space at the top to shift elements down */
-    width: 100vw; /* Ensures full viewport width */
-    height: 100vh; /* Ensures full viewport height */
-    overflow: hidden; /* Hides any overflowing content */
+    margin: 0; 
+    padding-top: 50px; 
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden; 
     z-index: 1;
-    background-color: #efdded; /* Keeps the background color */
-    box-sizing: border-box; /* Ensures padding is included in height */
+    background-color: #efdded; 
+    box-sizing: border-box; 
 }
 
 
@@ -36,11 +29,11 @@ html {
 .content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
+    align-items: center;
+    justify-content: center; 
     color: black;
     z-index: 1;
-    text-align: center; /* Optional: Center-align text if needed */
+    text-align: center; 
 }
 
 
@@ -56,10 +49,10 @@ html {
 
 .description {
     font-size: 20px;
-    font-family: 'Work Sans', sans-serif; /* Use Work Sans */
+    font-family: 'Work Sans', sans-serif; 
     margin-bottom: 25px;
     margin-left: 10%; 
-    line-height: 1.2; /* Adjusts line spacing */
+    line-height: 1.2;
     color: #7A607E; 
     
 }
@@ -67,11 +60,11 @@ html {
 .btn {
     text-decoration: none;
     background-color: #f6f6f6;
-    color: #6E8CA8; /* Text color set to black */
-    border-color: #5C2A54; /* Border color */
-    border-width: 3px; /* Thicker border */
-    border-style: solid; /* Ensures the border is visible */
-    border-radius: 100px; /* Rounded corners */
+    color: #6E8CA8; 
+    border-color: #5C2A54;
+    border-width: 3px;
+    border-style: solid; 
+    border-radius: 100px; 
     font-size: 15px;
     font-weight: 600;
     padding: 17px 26px;
@@ -82,14 +75,13 @@ html {
 
 .profileImage {
     width: 65%;
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
     z-index: 1;
     margin-right: 2%;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    /* border: 5px solid black; Adds a thick black border */
 }
 
 
@@ -136,21 +128,9 @@ html {
   }
 
   
-
-  @media screen and (max-width: 830px) {
-    .container {
-      flex-direction: column-reverse;
-    }
-  
-    .content {
-      align-items: center;
-    }
-  }
-
-  /* Highlight for "University of Waterloo" and "full-stack development" */
 .description .highlightBlue {
-    color: #6E8CA8; /* Blue color */
-    font-weight: 900; /* Optional for emphasis */
+    color: #6E8CA8; 
+    font-weight: 900; 
     font-size: 22px; 
 
 }
@@ -162,12 +142,48 @@ html {
     font-family: 'Work Sans', sans-serif;
 }
 
-      
 
+  @media screen and (max-width: 830px) {
+    .container {
+      flex-direction: column-reverse; 
+      align-items: center; 
+      justify-content: center; 
+      padding: 20px; 
+      height: auto; 
+      width: auto; 
+    }
+  
+    .content {
+      text-align: center; 
+      align-items: center; 
+      justify-content: center; 
+    }
+  
+    .title {
+      font-size: 36px; 
+      margin-bottom: 20px; 
+      margin-left:0px; 
+    }
+  
+    .description {
+      font-size: 14px; 
+      line-height: 1.5; 
+      margin-bottom: 15px; 
+      text-align: center;
+      margin-left: 0px; 
+    }
+  
+    .btn {
+      display: block; 
+      margin: 20px auto; 
+      font-size: 14px; 
+      padding: 12px 20px; 
+    }
+  
+    .profileImage {
+      width: 80%; 
+      margin: 20px auto; 
+    }
 
-
-    
-
-
-
-
+  }
+  
