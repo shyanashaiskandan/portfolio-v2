@@ -23,7 +23,7 @@ const Experience = () => {
             border: '2px solid black',
           }}
           contentArrowStyle={{
-            borderRight: '7px solid black', // Arrow with black border
+            borderRight: '7px solid black', 
           }}
           date={<span className={styles.date}>January 2025 - April 2025</span>}
           iconStyle={{ background: '#b16687', color: 'white' }}
@@ -43,7 +43,7 @@ const Experience = () => {
             border: '2px solid black',
           }}
           contentArrowStyle={{
-            borderRight: '7px solid black', // Arrow with black border
+            borderRight: '7px solid black', 
           }}
           date={<span className={styles.date}>January 2024 - April 2024</span>}
           iconStyle={{ background: '#b16687', color: 'white' }}
@@ -63,7 +63,7 @@ const Experience = () => {
             border: '2px solid black',
           }}
           contentArrowStyle={{
-            borderRight: '7px solid black', // Arrow with black border
+            borderRight: '7px solid black', 
           }}
           date={<span className={styles.date}>May 2023 - August 2023</span>}
           iconStyle={{ background: '#b16687', color: 'white' }}
@@ -83,7 +83,7 @@ const Experience = () => {
             border: '2px solid black',
           }}
           contentArrowStyle={{
-            borderRight: '7px solid black', // Arrow with black border
+            borderRight: '7px solid black', 
           }}
           date={<span className={styles.date}>September 2022 - December 2022</span>}
           iconStyle={{ background: '#b16687', color: 'white' }}
@@ -103,7 +103,7 @@ const Experience = () => {
             border: '2px solid black',
           }}
           contentArrowStyle={{
-            borderRight: '7px solid black', // Arrow with black border
+            borderRight: '7px solid black', 
           }}
           date={<span className={styles.date}>January 2022 - April 2022</span>}
           iconStyle={{ background: '#b16687', color: 'white' }}
