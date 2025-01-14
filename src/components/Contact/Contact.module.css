@@ -27,14 +27,13 @@
 .name {
   font-size: 2rem;
   font-weight: 600;
-  margin: 0;
+  margin-bottom: 40px;
   color: black;
 }
 
 .title {
   font-size: 1.2rem;
   color: black;
-  margin-bottom: 1.5rem;
 }
 
 .contactInfo {
@@ -44,12 +43,13 @@
 .label {
   font-weight: bold;
   color: black;
+  text-decoration: underline; 
 }
 
 .contactLinks {
   display: flex;
-  gap: 16px;
-  margin-top: 16px;
+  gap: 65px; 
+  margin-top: 50px; 
   justify-content: center;
   align-items: center;
 }
@@ -71,7 +71,7 @@
 }
 
 .contactIcon {
-  width: 40px;
-  height: 40px;
+  width: 70px;
+  height: 70px;
   object-fit: contain;
 }

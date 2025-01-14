@@ -20,20 +20,20 @@ const Contact = () => {
           I’m constantly learning and love connecting with others who are just as passionate about technology. 
           Let’s chat :)
         </p>
-        <div className={styles.contactInfo}>
+        {/* <div className={styles.contactInfo}>
           <p>
-            <span className={styles.label}>Linkedin:</span> +123-456-7890
+            <span className={styles.label}>Linkedin:</span> www.linkedin.com/in/shyana-shaiskandan
           </p>
           <p>
-            <span className={styles.label}>Github:</span> hello@reallygreatsite.com
+            <span className={styles.label}>Github:</span> https://github.com/shyanashaiskandan
           </p>
           <p>
-            <span className={styles.label}>Email:</span> 123 Anywhere St, Any City
+            <span className={styles.label}>Email:</span> sshaiska@uwaterloo.ca
           </p>
-        </div>
+        </div> */}
         <div className={styles.contactLinks}>
           <a
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/shyana-shaiskandan"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.contactButton}
@@ -41,7 +41,7 @@ const Contact = () => {
             <img src={linkedin} alt="LinkedIn" className={styles.contactIcon} />
           </a>
           <a
-            href="https://github.com/your-profile"
+            href="https://github.com/shyanashaiskandan"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.contactButton}
@@ -49,7 +49,7 @@ const Contact = () => {
             <img src={github} alt="GitHub" className={styles.contactIcon} />
           </a>
           <a
-            href="mailto:hello@reallygreatsite.com"
+            href="mailto:sshaiska@uwaterloo.ca"
             className={styles.contactButton}
           >
             <img src={email} alt="Email" className={styles.contactIcon} />
