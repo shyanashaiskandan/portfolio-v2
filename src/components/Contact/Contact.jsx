@@ -9,7 +9,7 @@ const Contact = () => {
     <div id="contact" className={styles.contactCard}>
       <div className={styles.imageContainer}>
         <img
-          src="/assets/Contact/test.png" // Replace with your image source
+          src="/assets/Contact/test.png"
           alt="Profile"
           className={styles.profileImage}
         />
