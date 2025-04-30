@@ -1,11 +1,10 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "/assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Geography Quiz App",
+      "imageSrc": "/assets/projects/geographyquiz.png",
+      "description": "A full-stack web application for testing and improving your geography knowledge through interactive quizzes.",
+      "skills": ["React", "Redux", "Node.js", "MongoDB", "Express"],
+      "source": "https://github.com/shyanashaiskandan/geography_quiz"
     },
     {
       "title": "Project B",

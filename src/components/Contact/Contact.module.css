@@ -127,7 +127,7 @@
 }
 
 .wrapper span {
-  position: fixed;
+  position: absolute;
   bottom: -50px;
   height: 2.5px;
   width: 2.5px;

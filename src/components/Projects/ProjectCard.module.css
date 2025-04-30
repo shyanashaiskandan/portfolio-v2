@@ -8,13 +8,23 @@
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
     max-width: 345px;
-    min-height: 485px; /* Set a consistent height */
+    min-height: 485px;
     align-items: center;
-    position: relative; /* Required for positioning the GitHub logo */
+    position: relative;
 }
 
 .image {
     margin-bottom: 18px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.quizImage {
+    object-fit: contain;
+    background: white;
+    padding: 15px;
 }
 
 .title {
@@ -22,39 +32,41 @@
     font-weight: 700;
     color: white; 
     margin-top: 10px;
-    font-family: 'Work Sans', sans-serif; /* Use Work Sans */
+    font-family: 'Work Sans', sans-serif;
 }
 
 .description {
-    margin: 0; /* Completely removes default margins */
-    padding: 10px 10px 10px; /* Add padding on sides, but no bottom padding */
+    margin: 0;
+    padding: 10px 10px 10px;
     font-weight: 400;
-    font-size: 15px;
-    font-family: 'Work Sans', sans-serif; /* Use Work Sans */
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
     color: white; 
-    text-align: justify; /* Justifies the text */
-    text-align-last: center; /* Centers the last line */
-    line-height: 1.2; /* Reduce line spacing to make text more compact */
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.4;
+    max-height: 120px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
 }
 
 .skills {
     width: 100%;
-    margin: 15px 0 30px; /* Tighten space above skills to just 2px */
+    margin: 15px 0 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 6px; /* Space between individual skill items */
+    gap: 6px;
     list-style: none;
-    justify-content: center; /* Centers the skills horizontally */
-    align-items: center; /* Centers the skills vertically */
+    justify-content: center;
+    align-items: center;
 }
-
-
-
 
 .skill {
     font-size: 14px;
-    font-family: 'Work Sans', sans-serif; /* Use Work Sans */
+    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     border-radius: 100px;
     background: #D4B8D2;
@@ -62,16 +74,16 @@
 }
 
 .githubLogoContainer {
-    position: absolute; /* Ensure the GitHub logo is positioned relative to the container */
-    bottom: 15px; /* Distance from the bottom */
-    right: 15px; /* Distance from the right */
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .githubLogo {
-    width: 30px; /* Adjust the logo size */
+    width: 30px;
     height: 30px;
-    cursor: pointer; /* Makes the logo interactive */
+    cursor: pointer;
 }
