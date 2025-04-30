@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
-import githubLogo from "/assets/projects/githublogo.png"; // Import GitHub logo
+import githubLogo from "/assets/projects/githublogo.png";
+import projectImage from "/assets/projects/project.png";
 
 const ProjectCard = ({ project }) => {
-  const { title, imageSrc, description, skills, demo, source } = project;
+  const { title, description, skills, demo, source } = project;
 
   return (
     <div className={styles.container}>
-      <img src={imageSrc} alt={title} className={styles.image} />
+      <img src={projectImage} alt={title} className={styles.image} />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
