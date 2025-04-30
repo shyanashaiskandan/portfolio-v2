@@ -8,6 +8,11 @@ import test from "/assets/Contact/test.png";
 const Contact = () => {
   return (
     <div id="contact" className={styles.contactCard}>
+      <div className={styles.wrapper}>
+        {[...Array(52)].map((_, i) => (
+          <span key={i}></span>
+        ))}
+      </div>
       <div className={styles.imageContainer}>
         <img
           src={test}
