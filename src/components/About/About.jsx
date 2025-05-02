@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./About.module.css"
+import profileImage from "/assets/about/shyana.jpg"
 
 export default function About() {
     return (
@@ -23,7 +24,7 @@ export default function About() {
   
           <a href="#projects" className={`${styles.btn} ${styles.btnYellow}`}>Check out my work!</a>
         </div>
-        <img src="/assets/about/shyana.jpg" alt="image of me" className={styles.profileImage} />
+        <img src={profileImage} alt="image of me" className={styles.profileImage} />
         <div className={styles.topBlur}></div>
         <div className={styles.bottomBlur}></div>
       </section>
