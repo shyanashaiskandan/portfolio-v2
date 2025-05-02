@@ -3,7 +3,7 @@
       "title": "Geography Quiz App",
       "imageSrc": "/assets/projects/geographyquiz.png",
       "description": "A full-stack web application for testing and improving your geography knowledge through interactive quizzes.",
-      "skills": ["React", "Redux", "Node.js", "MongoDB", "Express"],
+      "skills": ["React", "Node.js", "MongoDB", "Express", "Bootstrap"],
       "source": "https://github.com/shyanashaiskandan/geography_quiz"
     },
     {

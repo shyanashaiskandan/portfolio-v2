@@ -33,7 +33,9 @@ html {
     justify-content: center; 
     color: black;
     z-index: 1;
-    text-align: center; 
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%; 
 }
 
 
@@ -41,7 +43,6 @@ html {
     font-size: 72px;
     font-weight:600;
     margin-bottom: 33px;
-    margin-left: 10%; 
     font-family: 'Poppins', sans-serif;
     color: #5C2A54; 
 }
@@ -51,7 +52,6 @@ html {
     font-size: 20px;
     font-family: 'Work Sans', sans-serif; 
     margin-bottom: 25px;
-    margin-left: 10%; 
     line-height: 1.2;
     color: #7A607E; 
     
@@ -68,20 +68,25 @@ html {
     font-size: 15px;
     font-weight: 600;
     padding: 17px 26px;
-    margin-left: 10%;
 }
 
 
 
 .profileImage {
-    width: 65%;
+    width: 33%;
     height: auto; 
     z-index: 1;
-    margin-right: 2%;
+    margin-right: 8%;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    border-radius: 50%;
+    background-color: #efdded;
+    object-fit: cover;
+    object-position: center 40%;
+    aspect-ratio: 1/1;
+    border: 8px solid #5C2A54;
 }
 
 
@@ -162,7 +167,6 @@ html {
     .title {
       font-size: 36px; 
       margin-bottom: 20px; 
-      margin-left:0px; 
     }
   
     .description {
@@ -170,7 +174,6 @@ html {
       line-height: 1.5; 
       margin-bottom: 15px; 
       text-align: center;
-      margin-left: 0px; 
     }
   
     .btn {
@@ -181,7 +184,7 @@ html {
     }
   
     .profileImage {
-      width: 80%; 
+      width: 40%; 
       margin: 20px auto; 
     }
 

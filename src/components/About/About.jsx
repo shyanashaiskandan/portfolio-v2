@@ -23,7 +23,7 @@ export default function About() {
   
           <a href="#projects" className={`${styles.btn} ${styles.btnYellow}`}>Check out my work!</a>
         </div>
-        <img src="/assets/about/heroImage.png" alt="image of me" className={styles.profileImage} />
+        <img src="/assets/about/shyana.jpg" alt="image of me" className={styles.profileImage} />
         <div className={styles.topBlur}></div>
         <div className={styles.bottomBlur}></div>
       </section>
