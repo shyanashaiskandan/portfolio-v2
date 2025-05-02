@@ -7,18 +7,17 @@
       "source": "https://github.com/shyanashaiskandan/geography_quiz"
     },
     {
+      "title": "Photo Booth",
+      "imageSrc": "/assets/projects/photobooth.png",
+      "description": "A motion-activated Raspberry Pi photo booth with a Django backend, real-time hardware control, and automated photo delivery via AWS S3 and email.",
+      "skills": ["Raspberry Pi", "PiCamera V2", "Django", "PIR Sensor", "AWS S3", "LEDs"],
+      "source": "https://github.com/shyanashaiskandan/photo-booth"
+    },
+    {
       "title": "Project B",
       "imageSrc": "/assets/projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "/assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     }
