@@ -11,6 +11,14 @@
     min-height: 485px;
     align-items: center;
     position: relative;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    border: 2px solid #5C2A54;
+    transform: translateY(-5px);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .image {
@@ -82,10 +90,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.githubLogoContainer:hover {
+    animation: bounce 0.5s ease;
 }
 
 .githubLogo {
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
 }
