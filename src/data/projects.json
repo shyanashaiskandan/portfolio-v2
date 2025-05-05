@@ -3,7 +3,7 @@
       "title": "Geography Quiz App",
       "imageSrc": "assets/projects/geographyquiz.png",
       "description": "A full-stack web application for testing and improving your geography knowledge through interactive quizzes.",
-      "skills": ["React", "Node.js", "MongoDB", "Express", "Bootstrap"],
+      "skills": ["React", "Node.js", "Express.js", "MongoDB", "Bootstrap"],
       "source": "https://github.com/shyanashaiskandan/geography_quiz"
     },
     {
@@ -14,11 +14,10 @@
       "source": "https://github.com/shyanashaiskandan/photo-booth"
     },
     {
-      "title": "Project B",
-      "imageSrc": "assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Movie Recommendations",
+      "imageSrc": "assets/projects/movie-recommendations.png",
+      "description": "An AI-powered movie app that recommends films based on your mood, complete with trailers and key details.",
+      "skills": ["React", "Node.js", "Express.js", "OpenAI API", "TMDB API"],
+      "source": "https://github.com/shyanashaiskandan/movie-recommendations"
     }
   ]
