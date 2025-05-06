@@ -1,6 +1,6 @@
 [
     {
-      "title": "Geography Quiz App",
+      "title": "Geography Quiz",
       "imageSrc": "assets/projects/geographyquiz.png",
       "description": "A full-stack web application for testing and improving your geography knowledge through interactive quizzes.",
       "skills": ["React", "Node.js", "Express.js", "MongoDB", "Bootstrap"],
@@ -11,7 +11,7 @@
       "imageSrc": "assets/projects/photobooth.png",
       "description": "A motion-activated Raspberry Pi photo booth with a Django backend, real-time hardware control, and automated photo delivery via AWS S3 and email.",
       "skills": ["Raspberry Pi", "PiCamera V2", "Django", "PIR Sensor", "AWS S3", "LEDs"],
-      "source": "https://github.com/shyanashaiskandan/photo-booth"
+      "source": "https://github.com/shyanashaiskandan/photobooth_simulator"
     },
     {
       "title": "Movie Recommendations",
