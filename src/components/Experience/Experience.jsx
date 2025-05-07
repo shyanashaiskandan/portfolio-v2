@@ -82,7 +82,7 @@ const Experience = () => {
             <img src={manulife} alt="manulife logo" className={styles.manulife} />
           </center>
           <center>
-            <h3 style={{ color: "#ffffff" }}>Salesforce Engineer</h3>
+            <h3 style={{ color: "#ffffff" }}>Software Engineer</h3>
           </center>
           <center>
             <h4 style={{ color: "#f9f1f1" }}>Manulife</h4>
