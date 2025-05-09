@@ -9,6 +9,7 @@ html {
 
   
   .container {
+    scroll-margin-top: 20px; /* 🪄 this is the magic line */
     position: relative;
     display: flex;
     align-items: center;
@@ -21,7 +22,8 @@ html {
     z-index: 1;
     background-color: #efdded; 
     box-sizing: border-box; 
-}
+  }
+  
 
 
 
@@ -150,6 +152,7 @@ html {
 
   @media screen and (max-width: 830px) {
     .container {
+      scroll-margin-top: 20px;
       flex-direction: column-reverse; 
       align-items: center; 
       justify-content: center; 
