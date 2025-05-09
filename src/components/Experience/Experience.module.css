@@ -3,7 +3,7 @@
 
 
 .container {
-  scroll-margin-top: 55px;
+  scroll-margin-top: 13px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -97,6 +97,7 @@
   }
 
   .container {
+    scroll-margin-top: 55px;
     padding: 20px;
     height: auto;
   }
