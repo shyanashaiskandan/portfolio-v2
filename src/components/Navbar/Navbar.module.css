@@ -5,17 +5,17 @@
 }
 
 .navbar {
-    position: sticky; /* Keeps navbar sticky */
-    top: 0; /* Sticks to the top of the viewport */
+    position: sticky; 
+    top: 0; 
     display: flex;
-    align-items: center; /* Vertically centers content */
+    align-items: center; 
     justify-content: space-between;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 25px;
     padding-right: 25px;
 
-    z-index: 2; /* Ensures the navbar stays on top of other content */
+    z-index: 2; 
     background-color: #5C2A54;
     color: var(--color-text);
     width: 100%;
@@ -25,20 +25,20 @@
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-    color: white; /* Ensure text is visible on dark background */
+    color: white; 
 }
 
 .menuBtn {
-    display: block; /* Ensures visibility */
+    display: block; 
     cursor: pointer;
-    width: 25px; /* Adjust size */
-    height: 25px; /* Maintain aspect ratio */
-    margin: auto 0; /* Vertically centers the button */
-    position: relative; /* Keeps it in layout flow */
-    z-index: 4; /* Keeps it on top */
-    color: white; /* Matches the theme */
-    background: none; /* No background */
-    border: none; /* No border */
+    width: 25px; 
+    height: 25px; 
+    margin: auto 0; 
+    position: relative; 
+    z-index: 4; 
+    color: white; 
+    background: none; 
+    border: none; 
 }
 
 .menu {
@@ -61,7 +61,7 @@
 }
 
 .menuBtn {
-    display: none; /* Hide button by default */
+    display: none; 
     cursor: pointer;
     width: 25px;
     height: 25px;
@@ -78,7 +78,7 @@
         justify-content: space-between;
         padding: 15px 25px;
         z-index: 2;
-        background-color: #04152d;
+        background-color: #5C2A54;
         color: var(--color-text);
         width: 100%;
       }
@@ -104,10 +104,10 @@
       }
       
       .menuItems {
-        display: none; /* Default hidden */
+        display: none; 
         position: absolute;
-        top: 100%; /* Positions the menu right below the button */
-        right: 0; /* Aligns with the button */
+        top: 100%;
+        right: 0; 
         flex-direction: column;
         gap: 8px;
         list-style: none;
