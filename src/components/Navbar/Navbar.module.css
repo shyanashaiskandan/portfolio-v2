@@ -91,7 +91,7 @@
       }
       
       .menu {
-        position: relative; /* Required to position the menuItems absolutely relative to this container */
+        position: relative; 
       }
       
       .menuBtn {
@@ -111,7 +111,7 @@
         flex-direction: column;
         gap: 8px;
         list-style: none;
-        background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
+        background: linear-gradient(180deg, #5C2A54 0%, #A267AC 100%);
         border-radius: 5px;
         padding: 15px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
@@ -125,6 +125,6 @@
       }
       
       .menuOpen {
-        display: flex; /* When active, make menu visible */
+        display: flex; 
       }
     }      
