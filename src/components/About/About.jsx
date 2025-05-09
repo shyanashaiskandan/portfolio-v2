@@ -15,8 +15,11 @@ export default function About() {
             I'm passionate about technology and constantly curious about the world of software.
           </p>
           <p className={styles.description}>
-            I'm currently exploring 
-            <span className={styles.highlightBlue}> full-stack development</span>, learning how to connect frontend and backend systems to build more complete solutions.
+            With experience in testing, development, and deployment, I’m focused on expanding my 
+            <span className={styles.highlightBlue}> software expertise </span>
+            and exploring 
+            <span className={styles.highlightBlue}> product management </span>
+             to bridge the gap between users, design, and development.
           </p>
           <p className={`${styles.description} ${styles.highlightGreen}`}>
           <span className={styles.highlightGreen}> Let's build something amazing together! </span>
