@@ -15,14 +15,12 @@ export default function About() {
             I'm passionate about technology and constantly curious about the world of software.
           </p>
           <p className={styles.description}>
-            With experience in testing, development, and deployment, I’m focused on expanding my 
-            <span className={styles.highlightBlue}> software expertise </span>
-            and exploring 
-            <span className={styles.highlightBlue}> product management </span>
-             to bridge the gap between users, design, and development.
+            With experience in testing, development, and deployment, I’m exploring both 
+            <span className={styles.highlightBlue}> software engineering</span> and <span className={styles.highlightBlue}>product management</span> — discovering how great ideas turn into real solutions. 
+            I'm especially focused on expanding my technical skills while learning to bridge the gap between users, design, and development.
           </p>
           <p className={`${styles.description} ${styles.highlightGreen}`}>
-          <span className={styles.highlightGreen}> Let's build something amazing together! </span>
+            <span className={styles.highlightGreen}>Let's build something amazing together!</span>
           </p>
   
           <a href="#projects" className={`${styles.btn} ${styles.btnYellow}`}>Check out my work!</a>
@@ -32,5 +30,4 @@ export default function About() {
         <div className={styles.bottomBlur}></div>
       </section>
     );
-  }
-  
+}

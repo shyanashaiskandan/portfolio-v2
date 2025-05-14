@@ -64,7 +64,6 @@ body {
   animation: rise 10s linear infinite;
 }
 
-
 .wrapper span:nth-child(1) { left: 3%; animation-delay: 0s; }
 .wrapper span:nth-child(2) { left: 11%; animation-delay: 1.8s; }
 .wrapper span:nth-child(3) { left: 6%; animation-delay: 5.1s; }
