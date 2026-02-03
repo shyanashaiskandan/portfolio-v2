@@ -6,6 +6,7 @@ import manulife from "/assets/experience/manulife logo.png";
 import gov from "/assets/experience/governmentlogo.png";
 import styles from "./Experience.module.css";
 import empireLife from "/assets/experience/empirelife.png";
+import appficiency from "/assets/experience/appficiency.png";
 
 const Experience = () => {
   return (
@@ -14,6 +15,30 @@ const Experience = () => {
         <center>Experience</center>
       </h1>
       <VerticalTimeline animate={true} lineColor="black">
+        {/* Appficiency */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element"
+          contentStyle={{
+            background: "#d97b9f",
+            color: "white",
+            border: "2px solid black",
+          }}
+          contentArrowStyle={{
+            borderRight: "7px solid black",
+          }}
+          date={<span className={styles.date}>September 2025 - December 2025</span>}
+          iconStyle={{ background: "#b16687", color: "white" }}
+        >
+          <center>
+            <img src={appficiency} alt="appficiency logo" className={styles.appficiency} />
+          </center>
+          <center>
+            <h3 style={{ color: "#ffffff" }}>Software Developer</h3>
+          </center>
+          <center>
+            <h4 style={{ color: "#f9f1f1" }}>Appficiency</h4>
+          </center>
+        </VerticalTimelineElement>
         {/* Empire Life */}
         <VerticalTimelineElement
           className="vertical-timeline-element"
