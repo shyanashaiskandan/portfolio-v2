@@ -1,11 +1,22 @@
 :root {
-    /* Colours */
-    --color-text: #fff;
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #04152d;
-  
-    /* Fonts */
-    --font-roboto: "Roboto";
-  }
+  /* Existing site palette, refreshed for the portfolio */
+  --color-text: #ffffff;
+  --color-primary: #5c2a54;
+  --color-secondary: #3e193a;
+  --color-dark: #2b1327;
+  --color-bg: #efdded;
+
+  /* Portfolio-specific palette */
+  --portfolio-bg: #efdded;
+  --portfolio-surface: #fffafd;
+  --portfolio-plum: #5c2a54;
+  --portfolio-plum-dark: #3e193a;
+  --portfolio-plum-deep: #2b1327;
+  --portfolio-lilac: #ead8e8;
+  --portfolio-lilac-strong: #d4b8d2;
+  --portfolio-text: #2f1d2c;
+  --portfolio-text-muted: #6f596a;
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+}
