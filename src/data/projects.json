@@ -1,7 +1,7 @@
 [
   {
     "title": "Geography Quiz",
-    "imageSrc": "assets/projects/geographyquiz.png",
+    "imageSrc": "/assets/projects/geographyquiz.png",
     "description": "A full-stack web application for testing and improving your geography knowledge through interactive quizzes.",
     "skills": [
       "React",
@@ -16,7 +16,7 @@
   },
   {
     "title": "Photo Booth",
-    "imageSrc": "assets/projects/photobooth.png",
+    "imageSrc": "/assets/projects/photobooth.png",
     "description": "A motion-activated Raspberry Pi photo booth with a Django backend, real-time hardware control, and automated photo delivery via AWS S3 and email.",
     "skills": [
       "Python",
@@ -32,7 +32,7 @@
   },
   {
     "title": "Movie Recommendations",
-    "imageSrc": "assets/projects/movie-recommendations.png",
+    "imageSrc": "/assets/projects/movie-recommendations.png",
     "description": "An AI-powered movie app that recommends films based on your mood, complete with trailers and key details.",
     "skills": [
       "React",
@@ -48,7 +48,7 @@
   },
   {
     "title": "Dance Dance Education",
-    "imageSrc": "assets/projects/dance-dance-education.png",
+    "imageSrc": "/assets/projects/dance-dance-education.png",
     "description": "An interactive learning platform combining a desktop application with custom ESP32 hardware to create hands-on educational activities using physical controls and real-time feedback.",
     "skills": [
       "React",
@@ -66,7 +66,7 @@
   },
   {
     "title": "SharePoint Personal Dashboard",
-    "imageSrc": "assets/projects/sharepoint-dashboard.png",
+    "imageSrc": "/assets/projects/sharepoint-dashboard.png",
     "description": "A SharePoint personal productivity dashboard that brings upcoming meetings, tasks, and real-time meeting reminders into one workspace.",
     "skills": [
       "SharePoint",
