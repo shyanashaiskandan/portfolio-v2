@@ -27,7 +27,7 @@
 
 
 .title {
-  margin: 0;
+  margin: 20px;
   color: #5c2a54;
   font-family: "Poppins", sans-serif;
   font-size: clamp(48px, 7vw, 72px);
@@ -40,7 +40,7 @@
 .projects {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 34px;
+  gap: 50px;
 }
 
 .glowOne,
@@ -267,12 +267,12 @@
   }
 
   .header {
-    margin-bottom: 34px;
+    margin-bottom: 40px;
   }
 
   .projects {
     grid-template-columns: 1fr;
-    gap: 26px;
+    gap: 50px;
   }
 
   .modalBackdrop {
@@ -313,4 +313,17 @@
   .actionButton {
     transition: none;
   }
+}
+
+.modalImageWrap {
+  min-height: 520px;
+  background: #dfc6dc;
+  overflow: hidden;
+}
+
+.sharePointModalImage {
+  object-fit: contain;
+  object-position: center;
+  transform: scale(1.00);
+  background: white;
 }

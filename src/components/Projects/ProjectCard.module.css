@@ -9,9 +9,17 @@
   overflow: hidden;
   border-radius: 24px;
   background: rgba(255, 250, 254, 0.76);
+
+  /* ADD THESE */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+
   box-shadow:
     0 14px 36px rgba(62, 25, 58, 0.10),
     inset 0 1px 0 rgba(255, 255, 255, 0.7);
+
   cursor: pointer;
   text-align: left;
   font: inherit;
@@ -190,4 +198,19 @@
         rgba(62, 25, 58, 0.72) 100%
       );
   }
+}
+
+/* Project 1 - Geography Quiz */
+.geographyImage {
+  object-position: center 28%;
+}
+
+/* Project 3 - Movie Recommendations */
+.movieImage {
+  object-position: center 28%;
+}
+
+/* Project 4 - Dance Dance Education */
+.danceImage {
+  object-position: center 95%;
 }

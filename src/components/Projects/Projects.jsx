@@ -86,7 +86,11 @@ const Projects = () => {
 
               <div className={styles.modalImageWrap}>
                 <img
-                  className={styles.modalImage}
+                  className={`${styles.modalImage} ${
+                    selectedProject.title === "SharePoint Personal Dashboard"
+                      ? styles.sharePointModalImage
+                      : ""
+                  }`}
                   src={selectedProject.imageSrc}
                   alt={`${selectedProject.title} preview`}
                 />

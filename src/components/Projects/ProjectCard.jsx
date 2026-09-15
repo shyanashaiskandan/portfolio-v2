@@ -10,6 +10,13 @@ const ProjectCard = ({ project, index, onOpen }) => {
     skills = [],
   } = project;
 
+  const getImageClass = () => {
+    if (index === 0) return styles.geographyImage;
+    if (index === 2) return styles.movieImage;
+    if (index === 3) return styles.danceImage;
+    return "";
+  };
+
   return (
     <motion.button
       type="button"
@@ -27,9 +34,10 @@ const ProjectCard = ({ project, index, onOpen }) => {
         <img
           src={imageSrc}
           alt={`${title} preview`}
-          className={styles.image}
+          className={`${styles.image} ${getImageClass()}`}
           loading="lazy"
         />
+
         <div className={styles.imageOverlay}>
           <span className={styles.viewLabel}>View project</span>
           <span className={styles.arrow}>↗</span>
@@ -52,6 +60,7 @@ const ProjectCard = ({ project, index, onOpen }) => {
               {skill}
             </span>
           ))}
+
           {skills.length > 4 && (
             <span className={`${styles.skill} ${styles.moreSkill}`}>
               +{skills.length - 4}

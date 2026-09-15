@@ -1,44 +1,83 @@
 [
-    {
-      "title": "Geography Quiz",
-      "imageSrc": "assets/projects/geographyquiz.png",
-      "description": "A full-stack web application for testing and improving your geography knowledge through interactive quizzes.",
-      "skills": ["React", "Node.js", "Express.js", "MongoDB", "Bootstrap"],
-      "source": "https://github.com/shyanashaiskandan/geography_quiz"
-    },
-    {
-      "title": "Photo Booth",
-      "imageSrc": "assets/projects/photobooth.png",
-      "description": "A motion-activated Raspberry Pi photo booth with a Django backend, real-time hardware control, and automated photo delivery via AWS S3 and email.",
-      "skills": ["Raspberry Pi", "PiCamera V2", "Django", "PIR Sensor", "AWS S3", "LEDs"],
-      "source": "https://github.com/shyanashaiskandan/photobooth_simulator"
-    },
-    {
-      "title": "Movie Recommendations",
-      "imageSrc": "assets/projects/movie-recommendations.png",
-      "description": "An AI-powered movie app that recommends films based on your mood, complete with trailers and key details.",
-      "skills": ["React", "Node.js", "Express.js", "OpenAI API", "TMDB API"],
-      "source": "https://github.com/shyanashaiskandan/movie-recommendations"
-    },
-    {
-      "title": "Geography Quiz",
-      "imageSrc": "assets/projects/geographyquiz.png",
-      "description": "A full-stack web application for testing and improving your geography knowledge through interactive quizzes.",
-      "skills": ["React", "Node.js", "Express.js", "MongoDB", "Bootstrap"],
-      "source": "https://github.com/shyanashaiskandan/geography_quiz"
-    },
-    {
-      "title": "Photo Booth",
-      "imageSrc": "assets/projects/photobooth.png",
-      "description": "A motion-activated Raspberry Pi photo booth with a Django backend, real-time hardware control, and automated photo delivery via AWS S3 and email.",
-      "skills": ["Raspberry Pi", "PiCamera V2", "Django", "PIR Sensor", "AWS S3", "LEDs"],
-      "source": "https://github.com/shyanashaiskandan/photobooth_simulator"
-    },
-    {
-      "title": "Movie Recommendations",
-      "imageSrc": "assets/projects/movie-recommendations.png",
-      "description": "An AI-powered movie app that recommends films based on your mood, complete with trailers and key details.",
-      "skills": ["React", "Node.js", "Express.js", "OpenAI API", "TMDB API"],
-      "source": "https://github.com/shyanashaiskandan/movie-recommendations"
-    }
-  ]
+  {
+    "title": "Geography Quiz",
+    "imageSrc": "assets/projects/geographyquiz.png",
+    "description": "A full-stack web application for testing and improving your geography knowledge through interactive quizzes.",
+    "skills": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Bootstrap",
+      "REST APIs",
+      "JavaScript"
+    ],
+    "source": "https://github.com/shyanashaiskandan/geography_quiz"
+  },
+  {
+    "title": "Photo Booth",
+    "imageSrc": "assets/projects/photobooth.png",
+    "description": "A motion-activated Raspberry Pi photo booth with a Django backend, real-time hardware control, and automated photo delivery via AWS S3 and email.",
+    "skills": [
+      "Python",
+      "Django",
+      "Raspberry Pi",
+      "AWS S3",
+      "GPIO",
+      "PiCamera V2",
+      "PIR Sensor",
+      "Email Automation"
+    ],
+    "source": "https://github.com/shyanashaiskandan/photobooth_simulator"
+  },
+  {
+    "title": "Movie Recommendations",
+    "imageSrc": "assets/projects/movie-recommendations.png",
+    "description": "An AI-powered movie app that recommends films based on your mood, complete with trailers and key details.",
+    "skills": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "OpenAI API",
+      "TMDB API",
+      "REST APIs",
+      "JavaScript",
+      "Prompt Engineering"
+    ],
+    "source": "https://github.com/shyanashaiskandan/movie-recommendations"
+  },
+  {
+    "title": "Dance Dance Education",
+    "imageSrc": "assets/projects/dance-dance-education.png",
+    "description": "An interactive learning platform combining a desktop application with custom ESP32 hardware to create hands-on educational activities using physical controls and real-time feedback.",
+    "skills": [
+      "React",
+      "Electron",
+      "Node.js",
+      "Express.js",
+      "SQLite",
+      "ESP32-S3",
+      "C++",
+      "USB HID",
+      "GPIO",
+      "Embedded Systems"
+    ],
+    "source": "https://github.com/manpreetjangra/dance-dance-education"
+  },
+  {
+    "title": "SharePoint Personal Dashboard",
+    "imageSrc": "assets/projects/sharepoint-dashboard.png",
+    "description": "A SharePoint personal productivity dashboard that brings upcoming meetings, tasks, and real-time meeting reminders into one workspace.",
+    "skills": [
+      "SharePoint",
+      "SPFx",
+      "TypeScript",
+      "Microsoft Graph",
+      "Node.js",
+      "REST APIs",
+      "Microsoft 365",
+      "React"
+    ],
+    "source": "https://github.com/shyanashaiskandan/Sharepoint-Personal-Dashboard"
+  }
+]
