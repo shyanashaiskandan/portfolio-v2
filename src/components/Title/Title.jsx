@@ -58,7 +58,7 @@ const Title = () => {
         </div>
       </div>
       <h2>Shyana Shaiskandan</h2>
-      <p>Computer Engineering Student at the University of Waterloo</p>
+      <p>Computer Engineering Graduate from the University of Waterloo</p>
     </section>
   );
 };
