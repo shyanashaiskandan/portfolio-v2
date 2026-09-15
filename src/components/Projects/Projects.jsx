@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import styles from "./Projects.module.css";
-import projects from "../../data/projects.json";
+import projects from "../../data/projects.js";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
